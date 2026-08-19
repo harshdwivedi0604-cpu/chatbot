@@ -1,13 +1,8 @@
-"""
-ChatBot - Window version (v1.0)
-Reuses get_reply() from chatbot.py, wrapped in a tkinter GUI.
-"""
-
 import tkinter as tk
 from chatbot import get_reply
 
 window = tk.Tk()
-window.title("My ChatBot")
+window.title("NOVA-chatbot")
 window.geometry("420x520")
 window.configure(bg="#1e1e2e")
 
