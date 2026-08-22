@@ -6,7 +6,7 @@ window.title("NOVA-chatbot")
 window.geometry("420x520")
 window.configure(bg="#1e1e2e")
 
-# --- Conversation display ---
+
 chat_area = tk.Text(
     window, width=48, height=24, bg="#282a36", fg="#f8f8f2",
     font=("Consolas", 11), wrap="word", state="disabled"
@@ -36,7 +36,7 @@ def send_message():
     add_line("ChatBot: " + reply)
 
 
-# --- Entry box + Send button ---
+
 bottom_frame = tk.Frame(window, bg="#1e1e2e")
 bottom_frame.pack(padx=10, pady=(0, 10), fill="x")
 

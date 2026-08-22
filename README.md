@@ -2,7 +2,6 @@
 
 A rule-based chatbot built in Python, with both a terminal version and a graphical (tkinter) window version.
 
-Built while following the **Applied Agentic AI — Month 1 Lab Guide** (Rule-Based Chatbot).
 
 ## Features
 
